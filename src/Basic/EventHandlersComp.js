@@ -18,3 +18,5 @@ export default EventHandlersComp
 
 
 // -------------------------------------------------------------------------------------- //
+
+/* In class compnenet we need to bind event handlers */
