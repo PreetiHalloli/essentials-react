@@ -29,7 +29,6 @@ function UseStateWithPrevState(){
             {/* or<button onClick={()=>{setCount(prev => prev - 1)}}>Decrement</button> */}
             <button onClick={incrementByFive}>Increment by 5</button>
             <button onClick={decrementByTwo}>Decrement by 2</button>
-
         </div>
     )
 }

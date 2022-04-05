@@ -20,6 +20,11 @@ import UseRef from './hooks/UseRef';
 import UseRefAsGenericContainer from './hooks/UseRefAsGenericContainer';
 import UseMemo from './hooks/UseMemo';
 import UseCallback from './hooks/UseCallback';
+import BoxModel from './LearnCSS/BoxModel';
+// import Flexbox from './LearnCSS/Flexbox';
+import Flexbox from './LearnCSS/Flex/Flexbox';
+import FlexboxOne from './LearnCSS/Flex/FlexboxOne';
+import TWModel from './LearnCSS/TW/tw'
 
 function App() {
 
@@ -56,8 +61,15 @@ function App() {
       {/* <UseEffectCleanup /> */}
       {/* <UseRef/> */}
       {/* <UseRefAsGenericContainer /> */}
-      <UseMemo/>
-      <UseCallback></UseCallback>
+      {/* <UseMemo/> */}
+      {/* <UseCallback></UseCallback> */}
+     
+
+{/* CSS */}
+     {/* <BoxModel /> */}
+     {/* <Flexbox /> */}
+     {/* <FlexboxOne /> */}
+     <TWModel />
      
     </div>
   );

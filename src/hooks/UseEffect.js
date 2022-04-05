@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 function UseEffect(){
 
     const [count, setCount] = useState(0)
+    console.log("count", count)
 
     useEffect(()=>{
         document.title = `you clicked ${count} thimes`

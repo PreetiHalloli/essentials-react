@@ -24,7 +24,7 @@ class Conditionalrender extends React.Component{
     //        this.state.isloggedin ?
     //        <p>Welcome Preeti</p> :
     //        <p>Welcome User</p>
-    //    )
+    //    )l
 
        /* ---ternary conditinal operator---- */
     //    return this.state.isloggedin && <p>Welcome</p>

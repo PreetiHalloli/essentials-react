@@ -4,9 +4,14 @@ function Counter(){
 
     const [count, setCount] = useState(0)
 
+    const addCount = ()=>{
+        setCount(count + 1)
+        console.log("preeti",count)
+    }
+
     return(
         <div>
-            <button onClick={()=>{setCount(count + 1)}}>Count {count}</button>
+            <button onClick={addCount}>Count {count}</button>
         </div>
     )
 }
